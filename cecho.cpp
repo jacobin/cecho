@@ -1,3 +1,4 @@
+// https://www.codeproject.com/Articles/17033/Add-Colors-to-Batch-Files
 // cecho.cpp by thomas_polaert@yahoo.fr
 //
 // This source code is provided "as-is" under The Code Project Open License (CPOL)
