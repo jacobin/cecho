@@ -207,6 +207,17 @@ int wmain(int argc, wchar_t* argv[])
 		for (clr = 0; clr < 8; clr++)
 			printf("\t%X = %-7ls\t%X = %ls\n", clr, Color[clr], clr+8, Color[clr+8]);
 
+		printf(
+			"\n"
+			"Example:\n"
+			"	cecho {0C}This line is red{#}\n"
+			"	\n"
+			"	REM Print ASCII char 0x07 (beep)\n"
+			"	cecho {\\u07 \\u07}\n"
+			"	cecho This {black on blue}word{#} is black on a blue background\n"
+			"\n"
+		    );
+
 		return -1;
 	}
 
